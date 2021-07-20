@@ -1,0 +1,272 @@
+@import "base/fuentes";
+@import "base/colores";
+@import "base/mixins";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    @include tipografiaBase($spartan, 1rem, normal, $blanco, null, null);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: $azul;
+    padding: 1em;
+
+        header{
+            background-color: $azul;
+            margin:1%;
+
+                .titulo{/****titulo****/
+                    color: $azul;
+                    font-family:$titulo;
+                    font-size: 4.5rem;
+                    text-align: center;
+                    width: 90%;
+                    height: 100%;
+                    margin: 1% 5%; 
+                    background-color: $celeste;
+                    border-style:double;
+                    border-width: 5%;
+                    border-radius: 10%;
+                    padding:1%;
+                    -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                    animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                    position: sticky;
+                    top: 0;
+                    z-index: 100;
+                    animation-duration: 1s;
+                    animation-name: aparecer; 
+                        a{
+                            text-decoration: none;
+                        }
+                }
+
+                .bulldog{/****subtitulo****/
+                    color:$celeste;
+                    padding: 5%;
+                    font-style:oblique ;
+                    font-weight: normal;
+                    font-size: 6.0rem;
+                    font-family: serif;
+                    text-align: center;
+                    text-transform:none ;
+                    line-height: normal;
+                    text-decoration: none;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    background-color:$celeste ;
+                    margin:10px;
+                    /*transform*/
+                    transform:scale(1,1) ;
+                    /*gradiante*/
+                    background:$azul;  
+                    animation-duration: 2s;
+                    animation-name: aparecer; 
+                }
+         
+        }
+}
+.fas{
+    color: $azul;
+}
+header{
+
+    nav{
+            ul{
+                width: 100%;
+                height: 100%;
+                margin: 1%; 
+                border-style:double ;
+                border-radius: 5%;
+                border-color: $azul;
+                margin-left: 20%;
+                margin-right: 20%;
+                justify-content: space-between;
+                border:5%;
+                background-color:$celeste;
+                color: $azul;
+                background-color: $celeste;
+                    li{
+                        font-size: 1.5rem;
+                        text-align: center;
+                        display: block;
+                        padding: 2%;
+                        text-align: center ;
+                        animation-duration: 3s;
+                        animation-name: aparecer;
+
+                            a{
+                                color: $azul;
+                                height: 100%;
+                                transition: 2s;
+                                text-decoration: none;
+                            }
+                    }
+            }
+    }
+}
+footer{
+        color: $blanco;
+        text-align: center;
+        background-color: $azul;
+        margin: 5% 0% 0%;
+        div{
+            a{
+                color: $celeste;
+                text-align: center;
+            }
+        }
+        address{
+            color: $blanco;
+            text-align: center;
+        }
+}
+h2{
+    color:$celeste;
+    font-style: oblique;
+    font-weight: normal;
+    font-size: 2.0rem;
+    font-family: serif;
+    text-align: center;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    /*animacion*/
+    animation-duration: 2s;
+    animation-name: aparecer;
+    margin: 5%;
+}
+h3{
+    color:$celeste;
+    font-style:italic ;
+    font-weight: normal;
+    font-size: 1.25rem;
+    font-family: serif;
+    text-align: center;
+    word-spacing: 5%;
+    text-transform: uppercase;
+    line-height: normal;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+    background-color: $azul;
+    margin: 5%;
+}
+main{
+
+    section{
+
+             div{
+
+                 p{
+                    color: $azul;
+                    font-size: 1.2rem;
+                    margin: 10%;
+                    border: 5%;
+                    border-style:double;
+                    padding: 5%;
+                    background-color: $celeste;
+            }
+        }
+    }
+}
+main{
+    section{
+        table{
+            color: $azul;
+            border-color: $celeste;
+            border-width: 5%;
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 10%;
+        }
+        thead{
+            color: $azul;
+            background:$celeste;
+            text-transform:uppercase ;
+        }
+        tbody{
+            color: $blanco;
+            background-color: $azul;
+            border: $celeste;
+        }
+    }
+}
+main{
+    section{
+        ul{
+            color: white;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.25rem;
+            font-family: serif;
+            text-align: center;
+            text-transform: none;
+            line-height: normal;
+            text-decoration: solid;
+            letter-spacing: 0.25rem;
+            word-spacing:normal ;
+            background-color:$azul;
+            margin-bottom: 10%;
+            border-style: double;
+            border-color: $celeste;
+            padding: 5%;
+                .listaRaza{
+                    list-style-position:inside ;
+                    color:$blanco;
+                    padding: 1%;
+                    background: $azul;
+                }
+                .listaCuidados{
+                    list-style-position:inside ;
+                    color:$blanco;
+                    padding: 1%;
+                    background: $azul;
+                }
+        }
+    }
+}
+main{
+    section{
+            .divContactos {
+                ul{
+                    border-style: none;
+                    li{
+                        color: $blanco;
+                        text-align:center ;
+                        display:inline-block ;
+                        margin: 2%;
+                        padding: 0%;
+                            a{
+                                text-decoration: none;
+                            }
+            
+                    }
+                }
+                
+            
+            }
+            form{
+                color: $blanco;
+                background: $azul;
+                border-style: solid;
+                border-color: $celeste;
+                border: 5%;
+                padding: 2%;
+                margin: 5%;
+            }
+    }
+}
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
