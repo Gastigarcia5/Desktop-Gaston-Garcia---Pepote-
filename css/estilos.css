@@ -22,7 +22,7 @@ body header {
 body header .titulo {
   /****titulo****/
   color: #371b0e;
-  font-family: "Londrina Outline", cursive;
+  font-family:'Abril Fatface', cursive;
   font-size: 4.5rem;
   text-align: center;
   width: 90%;
