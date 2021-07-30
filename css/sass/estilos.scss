@@ -34,7 +34,7 @@ body {
                     padding:1%;
                     -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                     animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-                    position: sticky;
+                    position:sticky;
                     top: 0;
                     z-index: 100;
                     animation-duration: 1s;
@@ -269,4 +269,5 @@ main{
       opacity: 1;
     }
  }
+
 
