@@ -40,6 +40,7 @@ body {
                     animation-duration: 1s;
                     animation-name: aparecer; 
                         a{
+                            color: $marron;
                             text-decoration: none;
                         }
                 }
@@ -76,10 +77,9 @@ header{
 
     nav{
         .navbar-light{
-            background-color: #f89900;
-            border-color: #f89900;
             .navbar-toggler{
-
+                background-color: #f89900;
+                border-color: #f89900;
             }
         }      
             ul{
@@ -276,6 +276,4 @@ main{
       opacity: 1;
     }
  }
-
-
 
