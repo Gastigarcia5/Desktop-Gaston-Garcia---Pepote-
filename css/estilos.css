@@ -76,9 +76,9 @@ body header .bulldog {
 header nav ul {
   width: 100%;
   height: 100%;
-  margin: 1%;
+  margin: 1% 5%;
   border-style: double;
-  border-radius: 5%;
+  border-radius: 0%;
   border-color: #371b0e;
   margin-left: 20%;
   margin-right: 20%;
@@ -105,7 +105,10 @@ header nav ul li a {
   transition: 2s;
   text-decoration: none;
 }
-
+.navbar-light .navbar-toggler {
+  background-color: #f89900;
+  border-color: #f89900;
+}
 footer {
   color: white;
   text-align: center;
