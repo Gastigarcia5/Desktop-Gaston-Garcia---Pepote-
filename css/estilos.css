@@ -42,9 +42,9 @@ body header .titulo {
 }
 
 body header .titulo a {
+  color: #371b0e;
   text-decoration: none;
 }
-
 body header .bulldog {
   /****subtitulo****/
   color: #f89900;
